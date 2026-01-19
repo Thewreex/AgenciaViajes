@@ -7,8 +7,14 @@
     gap: 120px;
 }
 
+.beneficios__titulo {
+    text-align: center;
+    color: v.$color-secundario;
+}
+
 .beneficios {
-    height: 600px;
+    padding: 20px;
+    height: 650px;
     width: 100%;
     background: v.$gradient-primary;
     flex-direction: column

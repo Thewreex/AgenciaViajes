@@ -77,8 +77,14 @@ body {
   gap: 120px;
 }
 
+.beneficios__titulo {
+  text-align: center;
+  color: #fff;
+}
+
 .beneficios {
-  height: 600px;
+  padding: 20px;
+  height: 650px;
   width: 100%;
   background: linear-gradient(180deg, rgb(12.7391304348, 94.3043478261, 245.2608695652) 0%, #084BC7 50%, rgb(6.0289855072, 56.5217391304, 149.9710144928) 100%);
   flex-direction: column;
@@ -110,6 +116,16 @@ body {
 .card--beneficios:hover {
   transform: translateY(-6px) scale(1.05) rotate(-3deg);
 }
+.card--paquetes {
+  height: 500px;
+  padding: 0;
+  width: 350px;
+  border: 2px solid #d4d4d4;
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+  flex-direction: column;
+}
 
 .card__titulo {
   color: rgb(26.75, 26.75, 26.75);
@@ -123,6 +139,48 @@ body {
 .card__texto {
   color: #414141;
   text-align: center;
+}
+
+.card__imagen {
+  width: 100%;
+  padding: 0;
+  border-radius: 16px;
+}
+
+.card__titulo--paquetes {
+  font-size: 25px;
+  margin-bottom: 8px;
+}
+
+.card__texto--paquetes {
+  font-size: 18px;
+  text-align: left;
+}
+
+.card__precio {
+  font-size: 28px;
+  padding: 20px;
+}
+
+.card__contenedor_texto_paquetes {
+  padding: 10px;
+}
+
+.paquetes {
+  background-color: rgb(244.8, 244.8, 244.8);
+  padding: 50px;
+}
+
+.paquetes__contenedor_card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.paquetes__titulo {
+  text-align: center;
+  margin-bottom: 75px;
+  color: #414141;
 }
 
 /*# sourceMappingURL=main.css.map */

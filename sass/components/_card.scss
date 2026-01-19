@@ -15,6 +15,15 @@
             transform: translateY(-6px) scale(1.05) rotate(-3deg);
         }
     }
+
+    &--paquetes {
+        height: 500px;
+        padding: 0;
+        width: 350px;
+        border: 2px solid #d4d4d4;
+        @include m.flex(space-between, space-between);
+        flex-direction: column;
+    }
 }
 
 .card__titulo {
@@ -29,4 +38,29 @@
 .card__texto {
     color: v.$color-texto;
     text-align: center;
+}
+
+.card__imagen {
+    width: 100%;
+    padding: 0;
+    border-radius: 16px;
+}
+
+.card__titulo--paquetes {
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+.card__texto--paquetes {
+    font-size: 18px;
+    text-align: left;
+}
+
+.card__precio {
+    font-size: 28px;
+    padding: 20px;
+}
+
+.card__contenedor_texto_paquetes {
+    padding: 10px;
 }
