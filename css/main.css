@@ -4,4 +4,28 @@
   margin: 0;
 }
 
+.header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #084BC7;
+  padding: 0 50px;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  list-style: none;
+}
+
+.header__texto {
+  color: #fff;
+  font-weight: 600;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 /*# sourceMappingURL=main.css.map */

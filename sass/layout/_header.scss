@@ -1,0 +1,20 @@
+@use "../utilities/variables" as v;
+@use "../utilities/mixins" as m;
+
+.header {
+    height: 100px;
+    @include m.flex(space-between, null);
+    background-color: v.$color-primario;
+    padding: 0 50px;
+}
+
+.header__nav {
+    @include m.flex(null, center);
+    gap: 60px;
+    list-style: none;
+}
+
+.header__texto {
+    color: v.$color-secundario;
+    font-weight: 600;
+}
