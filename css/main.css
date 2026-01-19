@@ -69,4 +69,60 @@ body {
   border-radius: 50px;
 }
 
+.beneficios__contenedor_card {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+}
+
+.beneficios {
+  height: 600px;
+  width: 100%;
+  background: linear-gradient(180deg, rgb(12.7391304348, 94.3043478261, 245.2608695652) 0%, #084BC7 50%, rgb(6.0289855072, 56.5217391304, 149.9710144928) 100%);
+  flex-direction: column;
+}
+
+.card__titulo_contenedor {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+.card--beneficios {
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  display: inline-block;
+  height: 180px;
+  width: 300px;
+  transition: transform 0.5s ease;
+}
+.card--beneficios:hover {
+  transform: translateY(-6px) scale(1.05) rotate(-3deg);
+}
+
+.card__titulo {
+  color: rgb(26.75, 26.75, 26.75);
+  font-size: 15px;
+}
+
+.card__icon {
+  height: 30px;
+}
+
+.card__texto {
+  color: #414141;
+  text-align: center;
+}
+
 /*# sourceMappingURL=main.css.map */

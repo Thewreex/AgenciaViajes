@@ -1,2 +1,13 @@
 $color-primario: #084BC7;
+$color-primario-dark: darken($color-primario, 10%);
+$color-primario-light: lighten($color-primario, 10%);
 $color-secundario: #fff;
+$color-texto: #414141;
+$color-texto-dark: darken($color-texto, 15%);
+
+$gradient-primary: linear-gradient(
+    180deg,
+    $color-primario-light 0%,
+    $color-primario 50%,
+    $color-primario-dark 100%
+);

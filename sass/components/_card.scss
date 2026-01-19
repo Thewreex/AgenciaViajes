@@ -1,0 +1,32 @@
+@use "../utilities/variables" as v;
+@use "../utilities/mixins" as m;
+
+.card {
+    @include m.card-base;
+
+    &--beneficios {
+        @include m.card-base;
+        display: inline-block;
+        height: 180px;
+        width: 300px;
+        transition: transform .5s ease;
+
+        &:hover {
+            transform: translateY(-6px) scale(1.05) rotate(-3deg);
+        }
+    }
+}
+
+.card__titulo {
+    color: v.$color-texto-dark;
+    font-size: 15px;
+}
+
+.card__icon {
+    height: 30px;
+}
+
+.card__texto {
+    color: v.$color-texto;
+    text-align: center;
+}

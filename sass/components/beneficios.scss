@@ -1,0 +1,20 @@
+@use "../utilities/variables" as v;
+@use "../utilities/mixins" as m;
+
+.beneficios__contenedor_card {
+    height: 50%;
+    @include m.flex(center, center);
+    gap: 120px;
+}
+
+.beneficios {
+    height: 600px;
+    width: 100%;
+    background: v.$gradient-primary;
+    flex-direction: column
+}
+
+.card__titulo_contenedor {
+    @include m.flex(space-evenly, center);
+    margin-bottom: 20px;
+}
