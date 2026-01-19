@@ -28,4 +28,45 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.hero {
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero__texto {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: none;
+  flex-direction: column;
+  gap: 35px;
+  padding: 100px;
+}
+
+.hero__titulo {
+  color: #084BC7;
+  font-weight: 800;
+  font-size: 50px;
+}
+
+.hero__parrafo {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.hero__contenedor_imagen {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__imagen {
+  border-radius: 50px;
+}
+
 /*# sourceMappingURL=main.css.map */

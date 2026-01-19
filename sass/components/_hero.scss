@@ -1,0 +1,38 @@
+@use "../utilities/mixins" as m;
+@use "../utilities/variables" as v;
+
+.hero {
+    height: 80vh;
+    @include m.flex(space-between, center);
+}
+
+.hero__texto {
+    height: 100%;
+    width: 50%;
+    @include m.flex(center, none);
+    flex-direction: column;
+    gap: 35px;
+    padding: 100px;
+}
+
+.hero__titulo {
+    color: v.$color-primario;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.hero__parrafo {
+    font-size: 22px;
+    font-weight: 500;
+} 
+
+.hero__contenedor_imagen {
+    width: 50%;
+    height: 100%;
+    @include m.flex(center, center)
+}
+
+.hero__imagen {
+    border-radius: 50px;
+}
+
